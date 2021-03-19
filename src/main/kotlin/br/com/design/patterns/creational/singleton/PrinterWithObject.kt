@@ -7,7 +7,7 @@ import java.math.BigDecimal
      ensuring that there is no more than one instantiation of this class, i.e., singletons out-of-the-box.
  */
 
-object Printer {
+object PrinterWithObject {
 
     fun printDeposit(amount: BigDecimal, toAccount: String) {
         println("Deposit of $amount with success in account $toAccount.")
@@ -19,6 +19,6 @@ object Printer {
 }
 
 fun main() {
-    Printer.printDeposit(BigDecimal.valueOf(150.00), "123456789")
-    Printer.printTransfer(BigDecimal.valueOf(150.00), "123456789", "987654321")
+    PrinterWithObject.printDeposit(BigDecimal.valueOf(150.00), "123456789")
+    PrinterWithObject.printTransfer(BigDecimal.valueOf(150.00), "123456789", "987654321")
 }
