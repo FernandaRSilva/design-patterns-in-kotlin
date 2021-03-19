@@ -1,4 +1,4 @@
-package br.com.design.patterns.crational.singleton
+package br.com.design.patterns.creational.singleton
 
 import java.math.BigDecimal
 
