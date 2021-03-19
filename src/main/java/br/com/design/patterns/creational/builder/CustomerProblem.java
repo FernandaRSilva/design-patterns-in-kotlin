@@ -1,8 +1,9 @@
-package br.com.design.patterns.creational.builder;/*
-Considering br.com.design.patterns.creational.builder.CustomerProblem class:
-    Problems: 1 - What if we want to turn phoneNumber and dismissalDate into optional attributes?
-              2 - How can we make the instantiation of br.com.design.patterns.creational.builder.Customer class readable? If we have a class with many
-              attributes, developers will not know what attribute the value is referring to.
+package br.com.design.patterns.creational.builder;
+/*
+    Considering CustomerProblem class:
+        Problems: 1 - What if we want to turn phoneNumber and dismissalDate into optional attributes?
+                  2 - How can we make the instantiation of Customer class readable? If we have a class with many
+                  attributes, developers will not know what attribute the value is referring to.
  */
 
 public class CustomerProblem {
